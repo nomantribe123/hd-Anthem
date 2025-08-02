@@ -1,0 +1,88 @@
+{
+    "key": "group_683503cf73f8d",
+    "title": "Where To Buy",
+    "fields": [
+        {
+            "key": "field_686327f7d12e0",
+            "label": "Where to Buy Page",
+            "name": "where_to_buy_page",
+            "aria-label": "",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "allow_archives": 1,
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_683503cf479a0",
+            "label": "Section Title",
+            "name": "section_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_683503ef479a1",
+            "label": "Section Description",
+            "name": "section_sub_title",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-where-to-buy-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1751328777
+}

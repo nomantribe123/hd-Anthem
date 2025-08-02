@@ -1,0 +1,72 @@
+{
+    "key": "group_685de780ae290",
+    "title": "Product Attribute: Colour",
+    "fields": [
+        {
+            "key": "field_685de781a432c",
+            "label": "Colour Value",
+            "name": "colour_value",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_685deb28bffe0",
+            "label": "Colour Group",
+            "name": "colour_group",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "red": "Red",
+                "blue": "Blue",
+                "green": "Green",
+                "orange": "Orange",
+                "black": "Black"
+            },
+            "default_value": false,
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "pa_colour"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1750986450
+}

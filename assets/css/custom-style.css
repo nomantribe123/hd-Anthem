@@ -1,0 +1,152 @@
+.social-anthem-title {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.social-anthem-title h4 {
+  text-align: center;
+  font-size: 48px;
+  font-family: 'century-gothic';
+}
+
+.social-anthem-title h3 {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'century-gothic';
+  max-width: 467px;
+}
+
+.socialmediaicons-sec li {
+  border-radius: 24px;
+  background: #F4F4F4;
+  padding: 8px 6px;
+}
+
+.socialmediaicons-sec span {
+  font-size: 14px;
+}
+
+.bg-grey-custom {
+  background: #f8f8f8;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.single-rel-posts {
+  background: white;
+  padding: 3em;
+  max-width:1356px;
+  border-radius: 2em;
+}
+.lineup-section {
+  max-width:1356px;
+  background-color: #D4CECB;
+  border-radius: 1em;
+}
+
+.line-up-btn {
+  width: 100%;
+  background: transparent;
+}
+
+.lineup-btn {
+
+  background: transparent;
+}
+
+
+@media (max-width: 768px) {
+  .releated-articles {
+    flex-direction: column;
+  }
+
+  .blog-header {
+    flex-direction: column;
+}
+.site-post-title {
+  max-width: 100%;
+  font-size: 32px;
+
+}
+
+.lineup-section {
+  padding-top: 30px;
+}
+
+.lineup-btn {
+  width: 100%;
+  background: transparent;
+}
+}
+
+.share-post {
+  background:#f8f8f8;
+}
+
+.ethical-statment-banner .elementor-widget-container {
+  background: #fbfbfb;
+}
+
+.top-posts-lists .tpg-widget-heading-wrapper.rt-clear.heading-style1 {
+  display: none;
+}
+
+.top-posts-lists .post-footer {
+  display: none !important;
+}
+
+.top-posts-lists .tpg-excerpt.tpg-el-excerpt {
+display: none !important;
+}
+
+.top-posts-lists .post-meta-tags.rt-el-post-meta span i {
+  display: none;
+}
+.top-posts-lists .categories-links {
+display: block !important;
+  width: 100%;
+  margin-top: 10px;
+
+}
+
+.top-posts-lists .categories-links a {
+  background: #f4f4f4;
+  padding: 8px 16px;
+  border-radius: 50px;
+}
+
+.top-featured-posts-lists .rt-detail.rt-el-content-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
+
+.blog-tophaeder .container {
+  max-width: 100%;
+  padding: 0px 25px;
+}
+
+
+.blog-tophaeder .mb-6 {
+  text-align: left;
+}
+
+.top-posts-lists .entry-title-wrapper {
+  margin-top: 75px;
+}
+
+.top-posts-lists .categories-links {
+  margin-top: -140px !important;
+}
+.top-featured-posts-lists .rt-holder,
+.top-featured-posts-lists .rt-detail,
+.top-featured-posts-lists .post-right-content {
+  overflow: visible !important;
+  position: relative !important;
+  display: block !important;
+}
+
+.blog-author-section {
+  background-color: #f8f8f8;
+}

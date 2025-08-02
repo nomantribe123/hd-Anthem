@@ -1,0 +1,85 @@
+{
+    "key": "group_685c62e71029b",
+    "title": "Header Menu - Mega Menu",
+    "fields": [
+        {
+            "key": "field_685c63c1ff065",
+            "label": "Mega Menu",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Applied to any menu items tagged as a Mega Menu",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_685c62e71b65d",
+            "label": "Mega Menu Blog Posts",
+            "name": "mega_menu_blog_posts",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "return_format": "object",
+            "multiple": 1,
+            "allow_null": 0,
+            "ui": 1
+        },
+        {
+            "key": "field_685c63311b65e",
+            "label": "Mega Menu Button",
+            "name": "mega_menu_button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu",
+                "operator": "==",
+                "value": "location\/header-navbar-menu"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1750885342
+}
